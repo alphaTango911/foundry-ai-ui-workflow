@@ -1,0 +1,8 @@
+{
+  "description": "Empty state removed: status='empty' renders only the header.",
+  "shouldFail": [
+    "STA-3"
+  ],
+  "trueGate": "HOLD",
+  "note": "rules.md: missing component state = HIGH."
+}

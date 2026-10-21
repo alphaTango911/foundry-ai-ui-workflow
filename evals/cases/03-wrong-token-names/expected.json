@@ -1,0 +1,9 @@
+{
+  "description": "Plausible-looking token names that don't exist in Foundry (danger family, numbered gray).",
+  "shouldFail": [
+    "TOK-2",
+    "TOK-3"
+  ],
+  "trueGate": "HOLD",
+  "note": "Unknown var() resolves to nothing: HIGH severity badges lose their colour. TOK-3 should also fail because HIGH no longer carries the error family."
+}

@@ -1,0 +1,8 @@
+{
+  "description": "HIGH severity background and the Confirm button use hex literals instead of tokens.",
+  "shouldFail": [
+    "TOK-1"
+  ],
+  "trueGate": "REVIEW",
+  "note": "rules.md: hardcoded hex that should be a token = MEDIUM."
+}

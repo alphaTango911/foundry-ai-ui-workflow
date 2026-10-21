@@ -1,0 +1,7 @@
+{
+  "description": "The first version of my reference panel: Confirm hovers to --color-primary-fill-hover with white text (3.76:1).",
+  "shouldFail": [],
+  "trueGate": "REVIEW",
+  "humanOnly": ["AC-13"],
+  "note": "Known blind spot. The checker doesn't measure contrast or hover states, so a correct checker result is 21/21 GO — and the true verdict is still REVIEW. This case exists to keep that gap visible."
+}

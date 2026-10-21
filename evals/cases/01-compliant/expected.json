@@ -1,0 +1,6 @@
+{
+  "description": "The reference panel, unchanged.",
+  "shouldFail": [],
+  "trueGate": "GO",
+  "note": "Calibration case. Any failure here is a checker false positive."
+}

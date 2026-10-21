@@ -1,0 +1,9 @@
+{
+  "description": "Severity rendered with an MUI Chip; Dismiss is a raw <button>.",
+  "shouldFail": [
+    "CMP-1",
+    "CMP-2"
+  ],
+  "trueGate": "HOLD",
+  "note": "The checker renders unknown packages as a placeholder <div> that drops className, so TOK-3 may also fail. That would be a side effect of the harness, not a separate defect."
+}

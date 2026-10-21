@@ -1,0 +1,8 @@
+{
+  "description": "Treats any evidence object as complete: f3 shows an empty Observed row and an enabled Confirm.",
+  "shouldFail": [
+    "EVD-2"
+  ],
+  "trueGate": "HOLD",
+  "note": "The failure the brief exists to prevent: confirming a finding nobody can verify."
+}

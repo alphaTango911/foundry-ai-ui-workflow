@@ -1,0 +1,6 @@
+{
+  "description": "Compliant UI that contains things a naive checker trips on: hex and palette classes in comments, '<button>' and a hex inside a string, an icon-only button with a proper aria-label.",
+  "shouldFail": [],
+  "trueGate": "GO",
+  "note": "Tests for false positives. Every failure here is the checker's fault."
+}

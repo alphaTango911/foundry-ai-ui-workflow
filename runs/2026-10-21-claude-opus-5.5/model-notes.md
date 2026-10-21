@@ -1,0 +1,6 @@
+
+- **NOTEs left:** focus rings rely on Button/Input's built-in styles (I'd want a Foundry focus-ring token), and loading placeholders are plain divs because there's no Skeleton in the allowed list.
+- **AC-7 wording:** the footer pluralises, so the fixture renders "1 low-confidence finding hidden". If CNF-1 matches the literal string "findings hidden", it will fail. Drop the pluralisation if the checker is strict.
+- **AC-13 (unverified):** Confirm's hover uses `primary-fill-active` as the rules require. I haven't measured `-text` on `-bg` contrast, or neutral-muted on surface, in either theme.
+- **Ready-state decisions (my choices, not in the brief):** the severity counts cover only the shown findings (≥0.50) and ignore the filter. A ready status with an empty `findings` array renders the empty state.
+- **Extra behaviour (AC-15 still needs an interaction test):** the card keeps a local, non-persisted decision label and sets `aria-pressed` so the reviewer sees what they chose. `onDecision` is still called on every click.

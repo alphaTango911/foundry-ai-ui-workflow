@@ -1,0 +1,7 @@
+{
+  "description": "Unedited GPT 6.1 Sol generation (21 Oct 2026). Replaces the components' focus ring with an outline in --color-primary-border: 1.36:1 light, 1.05:1 dark.",
+  "shouldFail": [],
+  "trueGate": "REVIEW",
+  "humanOnly": ["AC-13"],
+  "note": "Second known blind spot, found in a real generation rather than built by hand. The checker doesn't measure focus indicators."
+}

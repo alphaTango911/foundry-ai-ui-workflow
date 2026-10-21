@@ -1,0 +1,8 @@
+{
+  "description": "Valid tokens, wrong meaning: HIGH severity styled with the warning family.",
+  "shouldFail": [
+    "TOK-3"
+  ],
+  "trueGate": "REVIEW",
+  "note": "rules.md: colour token from wrong semantic category = MEDIUM."
+}
